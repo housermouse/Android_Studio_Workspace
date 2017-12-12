@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewOneOne"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="5px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="One,One" />
+
+            <TextView
+                android:id="@+id/textViewOneTwo"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="One,Two" />
+
+            <TextView
+                android:id="@+id/textViewOneThree"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="One,Three" />
+
+            <TextView
+                android:id="@+id/textViewOneFour"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="One,Four" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewTwoOne"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="5px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Two,One" />
+
+            <TextView
+                android:id="@+id/textViewTwoTwo"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Two,Two" />
+
+            <TextView
+                android:id="@+id/textViewTwoThree"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Two,Three" />
+
+            <TextView
+                android:id="@+id/textViewTwoFour"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Two,Four" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewThreeOne"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="5px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Three,One" />
+
+            <TextView
+                android:id="@+id/textViewThreeTwo"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Three,Two" />
+
+            <TextView
+                android:id="@+id/textViewThreeThree"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Three,Three" />
+
+            <TextView
+                android:id="@+id/textViewThreeFour"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Three,Four" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewFourOne"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="5px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Four,One" />
+
+            <TextView
+                android:id="@+id/textViewFourTwo"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Four,Two" />
+
+            <TextView
+                android:id="@+id/textViewFourThree"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Four,Three" />
+
+            <TextView
+                android:id="@+id/textViewFourFour"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5px"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Four,Four" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
